@@ -1,7 +1,6 @@
 package casaChica;
 
-public class DinningRoom {
-
+public class DiningRoom {
     private int windows;
     private boolean tv;
     private int width;

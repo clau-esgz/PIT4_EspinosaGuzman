@@ -1,2 +1,10 @@
-package casaChica;public enum BedSize {
+package casaChica;
+
+public enum BedSize {
+    individual,
+    matrimonial,
+    queen,
+    king,
 }
+
+

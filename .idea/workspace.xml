@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0946d426-4e27-425a-a012-78067b801468" name="Changes" comment="" />
+    <list default="true" id="0946d426-4e27-425a-a012-78067b801468" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casaChica/BedRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casaChica/BedRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casaChica/BedSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casaChica/BedSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casaChica/DiningRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casaChica/DiningRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casaChica/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casaChica/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casaChica/Kitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casaChica/Kitchen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casaChica/LivingRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casaChica/LivingRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casaChica/RestRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casaChica/RestRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casaChica/Yard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casaChica/Yard.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LDAweckJCCTlO47nkgeZbp9C3U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,7 +45,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
