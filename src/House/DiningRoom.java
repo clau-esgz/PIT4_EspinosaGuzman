@@ -1,11 +1,17 @@
-package casaChica;
+package House;
 
-public class BedRoom {
-    private BedSize bedsize;
+public class DiningRoom {
+    private int windows;
     private boolean tv;
     private int width;
     private int height;
     private String color;
+    private int chairsCapacity;
+
+    public int getWindows() {return windows;}
+    public void setWindows(int windows) {
+        this.windows = windows;
+    }
 
     public boolean getTv() {
         return tv;
@@ -24,15 +30,20 @@ public class BedRoom {
     public int getHeight() {
         return height;
     }
-    public void setHeight(int height) {
-        this.height = height;
-    }
+    public void setHeight(int height) {this.height = height;}
 
     public String getColor() {
         return color;
     }
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public int getChairsCapacity() {
+        return chairsCapacity;
+    }
+    public void setChairsCapacity(int chairsCapacity) {
+        this.chairsCapacity = chairsCapacity;
     }
 
 }

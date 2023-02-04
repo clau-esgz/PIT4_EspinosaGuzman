@@ -1,4 +1,4 @@
-package casaChica;
+package House;
 
 public class Kitchen {
 

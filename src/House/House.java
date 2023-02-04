@@ -1,10 +1,10 @@
-package casaChica;
+package House;
 
 public class House {
     public static final int MAX_BED_ROOMS = 10;
     public static final int MAX_REST_ROOMS = 10;
-    public int indexBedRoom ;
-    public int indexRestRoom;
+    private int indexBedRoom ;
+    private int indexRestRoom;
     private Kitchen kitchen;// kitchen es un atributo "del tipo" kitchen
     private DiningRoom diningRoom;
     private LivingRoom livingRoom;
@@ -12,6 +12,11 @@ public class House {
     private BedRoom[] bedRooms = new BedRoom[MAX_BED_ROOMS];
     private Yard yard;
 
+    public House() //inicializar siempre en el constructor
+    {
+        indexBedRoom = 0;
+        indexRestRoom = 0;
+    }
     public RestRoom[] getRestRooms() {
         return restRooms;
     }
@@ -58,13 +63,18 @@ public class House {
     //Creacion de Metodos
     //Sobre carga
 
-    public void addRoom(BedRoom bedroom){
-     indexBedRoom = bedRooms.length;
+    public void addRoom(BedRoom bedRoom){
 
+        bedRooms[indexBedRoom] = bedRoom;
+
+        indexBedRoom++;
     }
 
-    public void addRoom(RestRoom bedroom){
-        indexRestRoom =restRooms.length;
+    public void addRoom(RestRoom restRoom){
+        restRooms[indexRestRoom] = restRoom;
+
+        indexRestRoom++;
+
     }
 
 }
